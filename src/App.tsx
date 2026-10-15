@@ -45,7 +45,7 @@ import { BlurText } from "@/components/ui/BlurText";
 type RouteId = "home" | "showcase" | "how" | "team" | "docs" | "faq" | "app";
 
 const brand = {
-  name: "Auralis",
+  name: "SollinFT",
   tagline: "Fair Solana mint rooms for culture-led NFT launches.",
 };
 
@@ -139,7 +139,7 @@ const docs = [
 const greetings = ["Hello", "Guten tag", "Hola", "Bonjour", "Namaste", "Salaam", "Ciao", "Konnichiwa"];
 
 const posterSlides = [
-  { word: "AURALIS", accent: "#ffffff", image: "/nft-aether.png" },
+  { word: "SOLLINFT", accent: "#ffffff", image: "/nft-aether.png" },
   { word: "FAIR", accent: "#ff2d38", image: "/nft-oracle.png" },
   { word: "MINTS", accent: "#c9ff39", image: "/nft-archive.png" },
   { word: "VISIBLE", accent: "#53e3ff", image: "/nft-civic.png" },
@@ -220,7 +220,7 @@ function Navbar({
 }) {
   const navItems = [
     {
-      label: route === "home" ? "Auralis" : "Explore",
+      label: route === "home" ? "SollinFT" : "Explore",
       bgColor: "#ff2d38",
       textColor: "#ffffff",
       links: [
@@ -254,7 +254,7 @@ function Navbar({
     <header className="auralis-card-nav fixed inset-x-0 top-0 z-50 h-24">
       <CardNav
         logo="/auralis-logo.png"
-        logoAlt="Auralis"
+        logoAlt="SollinFT"
         items={navItems}
         baseColor="#111111"
         menuColor="#ffffff"
@@ -333,7 +333,7 @@ function InitialPreloader() {
 
           <div className="absolute bottom-12 flex items-center gap-3">
             <div className="h-2.5 w-2.5 rounded-full bg-[var(--auralis-red)] animate-ping" />
-            <span className="font-mono text-xs uppercase tracking-[0.25em] text-white/50">Entering Auralis</span>
+            <span className="font-mono text-xs uppercase tracking-[0.25em] text-white/50">Entering SollinFT</span>
           </div>
         </motion.div>
       )}
@@ -443,7 +443,7 @@ function Hero({ onNavigate }: { onNavigate: (route: RouteId) => void }) {
           >
             <span className="h-2 w-2 rounded-full bg-[var(--auralis-red)] animate-pulse" />
             <span className="font-mono text-xs font-bold uppercase tracking-[0.2em] text-black/80">
-              Auralis Mint Protocol
+              SollinFT Mint Protocol
             </span>
           </motion.div>
 
